@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/template.css" />
+    <script src="js/script.js"></script>
+    <title>Tutorials | Stefana Chiritescu</title>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
+    <meta name="description" content="this is a template page" />
+    <meta name="keywords" content="keywords for this page" />
+  </head>
+  <body>
+    <header>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w3-top">
+      <div class="w3-bar w3-pink w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
+        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
+            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
+            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
+            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
+            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
+            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
+            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
+          </div>
+        </div>
+        <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
+      </div>
+    </nav>
+
+      <!-- NAV BAR ON SMALL SCREENS -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
+        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
+        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
+        <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
+        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
+        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
+        <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
+      </div>
+    </header>
+
+    <!-- CONTENT FOR RESPECTIVE PAGE -->
+    <div id="section">
+      <h5 class="w3-center" id="title">Tutorials</h5>
+    </div>
+
+    <main id="tutorial">
+      <!-- Make your first Java Program -->
+    <div id="tut1">
+      <div>
+        <h6 class="fonttitle">Make Your First Java Program Using Eclipse</h6>
+        <p>To complete this tutorial, you will first need to download Eclipse and the Java Development Kit.</p>
+        <p><i><a href="https://www.eclipse.org/downloads/packages/" target="_blank">Click here to download Eclipse (choose Eclipse for Java Developers)</a> </i></p>
+        <p><i><a href="https://www.oracle.com/ie/java/technologies/javase-jdk15-downloads.html" target="_blank">Click here to download the Java Development Kit</a></i></p>
+        <br>
+        <p>Starting from the basics is the best way to get into programming. In this tutorial, I explain the steps required to make your first Java program using Eclipse.
+          This video was recorded using <a href="https://obsproject.com/download" target="_blank">OBS</a> and edited with iMovie. The sound was edited with <a href="https://www.audacityteam.org/download/" target="_blank">Audacity.</a></p>
+        <br>
+      </div>
+
+      <div class="w3-center">
+        <video class="video" controls autoplay poster="images/tutorials/placeholder1.png">
+          <source src="videos/tutorial1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="w3-container" style="padding: 8%;">
+        <br>
+        <h6 class="fonttitle">Steps</h6>
+        <p class="space">Step 1</p>
+        <p>Open Eclipse.</p>
+        <br>
+        <p class="space">Step 2</p>
+        <p>Click browse to choose the location in your computer where you want to save your work, then click launch.</p>
+        <br>
+        <p class="space">Step 3</p>
+        <p>Once the Integrated Development Environment (IDE) is open, click 'Create a Java Project on the left of the screen. After you chose a name for your project, click finish.
+          Note - when the 'Create module-info.java' pop-up comes up, click 'don't create'.
+        </p>
+        <br>
+        <p class="space">Step 4</p>
+        <p>To create a program, right click new and select 'Class' from the list of options. Choose a name for your file then click finish.</p>
+        <br>
+        <p class="space">Step 5</p>
+        <p>On the line under the pre-written line, type <i>'public static void main(String[] args)',</i> making sure to follow it with a set of curly brackets.</p>
+        <br>
+        <p class="space">Step 6</p>
+        <p>Inside the curly brackets, write <i>'System.out.println'</i> followed by a set of normal brackets and a set of double quotes.</p>
+        <br>
+        <p class="space">Step 7</p>
+        <p>Write 'Hello, world!' inside the double quotes.</p>
+        <br>
+        <p class="space">Step 8</p>
+        <p>If you see a red marker on the left side of certain lines of your program, it means you made an error - hover over it with your mouse and Eclipse will tell you what you did wrong.
+          Make sure to include semicolons at the end of each statement. 
+        </p>
+        <br>
+        <p class="space">Step 9</p>
+        <p>To run the program, click the green play icon on the toolbar on the top of the screen. You should see 'Hello, world!' in the console at the bottom of the screen.
+          By using the println statement, you can tell the program to print whatever you write inside the double quotes.
+        </p>
+        <br>
+        <p class="space">Step 10</p>
+        <p>By using two forward slashes, comment in English what the program does. By commenting, you can write notes at any point in the program to understand it when reading it in the future.</p>
+        <br>
+      </div>
+    </div>
+
+      <br>
+      <br>
+
+      <!-- Import a New Font Into GIMP -->
+    <div id="tut2">
+      <div>
+        <h6 class="fonttitle">Import a New Font Into GIMP</h6>
+        <p><i>*note - the following method only works on Windows operating systems</i></p>
+          <br>
+          <p>To complete this tutorial, you will need to have GIMP installed. Click here to download GIMP to your computer.</p>
+          <p><i><a href="https://www.gimp.org/downloads/" target="_blank">Click here to download GIMP</a></i></p>
+          <br>
+        <p>I often find myself needing a specific font for certain projects or artwork in GIMP that GIMP doesn't provide. In this tutorial, I explain how you can add a new font in GIMP.
+          This video was recorded using <a href="https://obsproject.com/download" target="_blank">OBS</a> and edited with iMovie. The sound was edited with <a href="https://www.audacityteam.org/download/" target="_blank">Audacity.</a></p>
+        <br>
+      </div>
+
+      <div class="w3-center">
+        <video class="video" controls autoplay poster="images/tutorials/placeholder2.png">
+          <source src="videos/tutorial2.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="w3-container" style="padding: 8%;">
+        <br>
+        <h6 class="fonttitle">Steps</h6>
+        <p class="space">Step 1</p>
+        <p>Download your desired font.<a href="https://fonts.google.com/" target="_blank">Google fonts</a> has a great variety to choose from. </p>
+        <br>
+        <p class="space">Step 2</p>
+        <p>Export the downloaded font to a location of your choice in your PC (you will need to remember the location for later).</p>
+        <br>
+        <p class="space">Step 3</p>
+        <p>Open GIMP.
+        </p>
+        <br>
+        <p class="space">Step 4</p>
+        <p>Go to <i>‘Edit’</i> on the toolbar, then <i>‘Preferences’</i>.</p>
+        <br>
+        <p class="space">Step 5</p>
+        <p>Scroll to the bottom of the preferences window and expand the <i>‘Folders’ icon</i>, then choose <i>‘Fonts’</i>.</p>
+        <br>
+        <p class="space">Step 6</p>
+        <p>Three folders will show up – click on the middle folder, then on the drawer icon next to the file location to open the fonts location inside GIMP and double click the <i>‘fonts’</i> folder.</p>
+        <br>
+        <p class="space">Step 7</p>
+        <p>Open the folder in where your font downloaded (must be a .ttf file) and drag it into your fonts folder in GIMP.</p>
+        <br>
+        <p class="space">Step 8</p>
+        <p>Exit both open folders, return to GIMP and close the preferences window.</p>
+        <br>
+        <p class="space">Step 9</p>
+        <p>To make sure your new font is now usable in GIMP, on the toolbar go to <i>‘Windows’, ‘Dockable Dialogs’ </i>then <i>‘Fonts’</i>.</p>
+        <br>
+        <p class="space">Step 10</p>
+        <p>Use the refresh icon to allow the new font to appear and your new font is now ready to use.</p>
+        <br>
+      </div>
+    </div>
+
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="w3-center w3-padding-large">
+      <table class="w3-padding-32">
+        <tr>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+            ><i class="fa fa-linkedin w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+            ><i class="fa fa-github w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+          ></a></td>
+        </tr>
+      </table>
+      <p><a href="copyright.html">&copy; 2021 Stefana Chiritescu</a></p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/template.css" />
+    <script src="js/script.js"></script>
+    <title>Image Gallery | Stefana Chiritescu</title>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
+    <meta name="description" content="this is a template page" />
+    <meta name="keywords" content="keywords for this page" />
+  </head>
+  <body>
+    <header>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w3-top">
+      <div class="w3-bar w3-pink w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
+        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
+            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
+            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
+            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
+            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
+            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
+            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
+          </div>
+        </div>
+        <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
+      </div>
+    </nav>
+
+      <!-- NAV BAR ON SMALL SCREENS -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
+        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
+        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
+        <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
+        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
+        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
+        <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
+      </div>
+    </header>
+
+    <!-- CONTENT FOR RESPECTIVE PAGE -->
+    <div id="section">
+      <h5 class="w3-center" id="title">Image Gallery</h5>
+    </div>
+
+    <main id="gallery">
+
+      <div class="w3-row-padding" style="margin-bottom:128px">
+        <div class="w3-half">
+          <img src="images/gallery/pinupgirls.jpg" style="width:100%" onclick="onClick(this)" alt="Pin-up Girls">
+          <img src="images/gallery/bird.jpg" style="width:100%" onclick="onClick(this)" alt="Bird Poster">
+          <img src="images/gallery/retrograde.jpg" style="width:100%" onclick="onClick(this)" alt="Retrograde">
+          <img src="images/gallery/postcard.jpg" style="width:100%" onclick="onClick(this)" alt="Postcard">
+        </div>
+      
+        <div class="w3-half">
+          <img src="images/gallery/transfagarasan.jpg" style="width:100%" onclick="onClick(this)" alt="Transfagarasan">
+          <img src="images/gallery/vogue.jpg" style="width:100%" onclick="onClick(this)" alt="Vogue">
+          <img src="images/gallery/gameover.jpg" style="width:100%" onclick="onClick(this)" alt="GAME OVER">
+          <img src="images/gallery/magazine.jpg" style="width:100%" onclick="onClick(this)" alt="Magazine">
+        </div>
+      </div>
+
+      <!--WHAT DISPLAYS WHEN IMAGE IS CLICKED -->
+      <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" id="img01" class="w3-image" style="width: 200%;" alt="x">
+          <p id="caption"></p>
+        </div>
+      </div>
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="w3-center w3-padding-large">
+      <table class="w3-padding-32">
+        <tr>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+            ><i class="fa fa-linkedin w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+            ><i class="fa fa-github w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+          ></a></td>
+        </tr>
+      </table>
+      <p><a href="copyright.html">&copy; 2021 Stefana Chiritescu</a></p>
+    </footer>
+
+   <!--IMAGE ENLARGE-->
+    <script>
+      function onClick(element) 
+        {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+           captionText.innerHTML = element.alt;
+        }
+    </script>   
+
+  </body>
+</html>

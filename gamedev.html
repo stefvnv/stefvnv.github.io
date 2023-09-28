@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/template.css" />
+    <script src="js/script.js"></script>
+    <title>Game Development | Stefana Chiritescu</title>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
+    <meta name="description" content="this is a template page" />
+    <meta name="keywords" content="keywords for this page" />
+  </head>
+  <body>
+    <header>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w3-top">
+      <div class="w3-bar w3-pink w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
+        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
+            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
+            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
+            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
+            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
+            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
+            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
+          </div>
+        </div>
+        <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
+      </div>
+    </nav>
+
+      <!-- NAV BAR ON SMALL SCREENS -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
+        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
+        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
+        <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
+        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
+        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
+        <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
+      </div>
+    </header>
+
+    <!-- CONTENT FOR RESPECTIVE PAGE -->
+    <div id="section">
+      <h5 class="w3-center" id="title">Game Development</h5>
+    </div>
+
+    <main id="gamedev">
+
+    <!-- SAILOR MOON -->
+    <div id="sailormoon">
+      <div class="w3-container w3-padding-large">
+        <h6 class="fonttitle">Sailor Moon: The Game</h6>
+        <p><i>Sailor Moon: The Game</i> is the first game I created using GameMaker Studio. This platform game consists of six levels
+            of increasing difficulty. The aim of the game is to save the galaxy by killing as many enemies as you can, as well as the
+            boss at the end of the game.</p>
+        <p>Click the download button below to download and play <i>Sailor Moon: The Game.</i></p>
+      </div>
+
+    <!-- Slideshow Header -->
+    <div class="w3-container">
+      <div class="w3-display-container mySlides">
+        <video class="video" controls autoplay poster="images/gamedev/placeholder_sailormoon.png"><source src="videos/sailormoon_trailer.mov" type="video/mp4"/></video>
+      </div>
+
+      <div class="w3-display-container mySlides">
+      <img src="images/gamedev/sailormoon2.png" style="width:100%;margin-bottom:-6px" alt="sm">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Meet different characters throughout the universe</p>
+        </div>
+      </div>
+
+      <div class="w3-display-container mySlides">
+      <img src="images/gamedev/sailormoon3.png" style="width:100%;margin-bottom:-6px" alt="sm">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Jump on enemies to kill them</p>
+        </div>
+      </div>
+
+      <div class="w3-display-container mySlides">
+      <img src="images/gamedev/sailormoon4.png" style="width:100%;margin-bottom:-6px" alt="sm">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Climb on vines to avoid falling</p>
+        </div>
+      </div>
+
+      <div class="w3-display-container mySlides">
+      <img src="images/gamedev/sailormoon5.png" style="width:100%;margin-bottom:-6px" alt="sm">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Shoot enemies with sparkles</p>
+        </div>
+      </div>
+
+      <div class="w3-display-container mySlides">
+      <img src="images/gamedev/sailormoon6.png" style="width:100%;margin-bottom:-6px" alt="sm">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Fight the boss at the end of the game</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon1.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Trailer" alt="sm">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon2.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Meet different characters throughout the universe" alt="sm">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon3.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Jump on enemies to kill them" alt="sm">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon4.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Climb on vines to avoid falling" alt="sm">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon5.png" style="width:100%;cursor:pointer" onclick="currentDiv(5)" title="Shoot enemies with sparkles" alt="sm">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="images/gamedev/sailormoon6.png" style="width:100%;cursor:pointer" onclick="currentDiv(6)" title="Fight the boss at the end of the game" alt="sm">
+      </div>
+    </div>
+    <br>
+
+    <div class="w3-center w3-padding-large">
+      <a href="../downloads//sailormoon.exe" download="" class="w3-bar-item w3-button" style="background-color: rgb(241, 218, 211); color: rgb(78, 78, 78); width: 250px;">Download</a>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!--Pixel Paint-->
+  <div id="pixelpaint">
+    <div class="w3-container w3-padding-large">
+      <h6 class="fonttitle">Pixel Paint</h6>
+      <p>As the second game I ever created, <i>Pixel Paint</i> helped me understand programming from a new, more object-orientated persepective. To make this game, I used Game Maker Language (GML).
+        <i>Pixel Paint</i> is a fun puzzle game where the player must figure their way out through each level. The player must only touch the wall color that matches the current color of the player.</p>
+      <p><i>Pixel Paint</i> is still under development and therefore is currently not available for download.</p>
+    </div>
+
+    <!-- Slideshow Header -->
+    <div class="w3-container">
+
+    <div class="w3-display-container mySlides2">
+      <video class="video" controls autoplay poster="images/gamedev/placeholder_pixelpaint.png"><source src="videos/pixelpaint_trailer.mov" type="video/mp4"/></video>
+    </div>
+
+    <div class="w3-display-container mySlides2">
+    <img src="images/gamedev/pixelpaint2.png" style="width:100%;margin-bottom:-6px" alt="pp">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Touch gems to switch color</p>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides2">
+    <img src="images/gamedev/pixelpaint3.png" style="width:100%;margin-bottom:-6px" alt="pp">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Avoid touching the wrong colored blocks</p>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides2">
+    <img src="images/gamedev/pixelpaint4.png" style="width:100%;margin-bottom:-6px" alt="pp">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Jump on enemies to kill them</p>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides2">
+    <img src="images/gamedev/pixelpaint5.png" style="width:100%;margin-bottom:-6px" alt="pp">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Touch jumping blocks to jump to hard to reach places</p>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides2">
+    <img src="images/gamedev/pixelpaint6.png" style="width:100%;margin-bottom:-6px" alt="pp">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Run away from chasing enemies</p>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint1.png" style="width:100%;cursor:pointer" onclick="currentDiv2(1)" title="Trailer" alt="pp">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint2.png" style="width:100%;cursor:pointer" onclick="currentDiv2(2)" title="Touch gems to switch color" alt="pp">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint3.png" style="width:100%;cursor:pointer" onclick="currentDiv2(3)" title="Avoid touching the wrong colored blocks" alt="pp">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint4.png" style="width:100%;cursor:pointer" onclick="currentDiv2(4)" title="Jump on enemies to kill them" alt="pp">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint5.png" style="width:100%;cursor:pointer" onclick="currentDiv2(5)" title="Touch jumping blocks to jump to hard to reach places" alt="pp">
+      </div>
+      <div class="w3-col s2">
+        <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/gamedev/pixelpaint6.png" style="width:100%;cursor:pointer" onclick="currentDiv2(6)" title="Run away from chasing enemies" alt="pp">
+      </div>
+    </div>
+    <br>
+  </div>
+
+  </main>
+    
+    <!--FOOTER-->
+  <footer class="w3-center w3-padding-large">
+    <table class="w3-padding-32">
+      <tr>
+        <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+          ><i class="fa fa-linkedin w3-hover-opacity"></i
+        ></a></td>
+        <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+          ><i class="fa fa-github w3-hover-opacity"></i
+        ></a></td>
+        <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+          ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+        ></a></td>
+      </tr>
+    </table>
+    <p><a href="copyright.html">&copy; 2021 Stefana Chiritescu</a></p>
+  </footer>
+
+    <!--Sailor Moon Slideshow-->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-opacity-off";
+        }
+    </script>
+
+    <!--Pixel Paint Slideshow-->
+    <script>
+      var slideIndex2 = 1;
+      showDivss(slideIndex2);
+      
+      function plusDivss(m) {
+        showDivss(slideIndex2 += m);
+      }
+      
+      function currentDiv2(m) {
+        showDivss(slideIndex2 = m);
+      }
+      
+      function showDivss(m) {
+        var j;
+        var y = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("demo2");
+
+        if (m > y.length) {slideIndex2 = 1}
+        if (m < 1) {slideIndex2 = y.length}
+        for (j = 0; j < y.length; j++) {
+          y[j].style.display = "none";
+        }
+        for (j = 0; j < dots.length; j++) {
+          dots[j].className = dots[j].className.replace(" w3-opacity-off", "");
+        }
+        y[slideIndex2-1].style.display = "block";
+        dots[slideIndex2-1].className += " w3-opacity-off";
+      }
+    </script>
+
+  </body>
+</html>

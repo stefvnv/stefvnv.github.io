@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/template.css" />
+    <script src="js/script.js"></script>
+    <title>Sound Studio | Stefana Chiritescu</title>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
+    <meta name="description" content="this is a template page" />
+    <meta name="keywords" content="keywords for this page" />
+  </head>
+  <body>
+    <header>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w3-top">
+      <div class="w3-bar w3-pink w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
+        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
+            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
+            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
+            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
+            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
+            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
+            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
+          </div>
+        </div>
+        <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
+      </div>
+    </nav>
+
+      <!-- NAV BAR ON SMALL SCREENS -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
+        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
+        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
+        <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
+        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
+        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
+        <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
+      </div>
+    </header>
+
+    <!-- CONTENT FOR RESPECTIVE PAGE -->
+    <div id="section">
+      <h5 class="w3-center" id="title">Sound Studio</h5>
+    </div>
+
+    <main style="margin-bottom: 6%; margin-top: 6%;">
+      <!-- PROJECT 1 -->
+      <!-- Audacity Project 1 description -->
+      <div id="soundstudiotop" class="w3-container">
+        <h6 class="w3-padding fonttitle">Audacity Project 1</h6>
+        <p class="w3-padding">For this project, I used the instrumental of a song I really love, ‘Pretty When You Cry’ by Lana Del Rey from her album 'Ultraviolence' 
+          to recreate the bridge of the song. Due to the guitar, harmony, and syncopated rhythms, the original song has quite a jazzy feel to it. In order to recreate
+          this I recorded myself, then overdubbed another recording of my voice. For effects, I used the <i>echo, low-pass filter, reverb & wahwah</i> filters
+          and added a <i>fade out</i> at the end.
+        </p>
+      </div>
+
+      <!-- LDR picture -->
+      <div class="bgimg-3 w3-display-container soundstudiopic">
+        <div class="w3-display-middle">
+          <div><audio controls=""><source src="sounds/prettywhenyoucry.mp3" type="audio/mpeg"></audio></div>
+          <div class="tiny w3-center" style="color: white;">'Pretty When You Cry' by Lana Del Rey</div>
+        </div>
+      </div>
+
+      <!-- Unedited & edited file half -->
+
+      <div id="soundstudiomiddle">
+        <div class="w3-row-padding">
+          <div class="w3-half w3-center">
+            <p class="space2">Unedited File</p>
+            <audio controls="" class=""><source src="sounds/prettywhenyoucry_before.mp3" type="audio/mpeg"></audio>
+              <div class="tiny">Original, instrumental sound file</div>
+          </div>
+          <div class="w3-half w3-center">
+            <p class="space2">Edited File</p>
+            <audio controls="" class=""><source src="sounds/prettywhenyoucry_after.mp3" type="audio/mpeg"></audio>
+              <div class="tiny">Sound file with voice recording, echo, low-pass filter, reverb and wahwah</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <!-- Audacity Project 2 description -->
+        <div class="w3-padding-64">
+          <h6 class="w3-padding fonttitle">Audacity Project 2</h6>
+          <p class="w3-padding ">For this project, I used the intro of ‘Montreal’ by The Weeknd from his album 'Trilogy'. The song already has a certain intensity to it
+            that almost creates fear, however I wanted to enhance that even more. I added a <i>fade in</i> at the beginning and <i>fade out</i> at the end. I added <i>delay</i>
+            on certain parts of the sample, and <i>increased the bass & reduced the treble</i>. Finally, I added a copy of the song on another layer, and <i>increased the pitch</i>
+            on certain lines to make it sound like there is a second voice harmonizing. 
+          </p>
+        </div>
+      </div>
+
+      <!-- The Weeknd picture -->
+      <div class="bgimg-4 w3-display-container soundstudiopic">
+        <div class="w3-display-middle">
+          <div><audio controls=""><source src="sounds/montreal.mp3" type="audio/mpeg"></audio></div>
+          <div class="tiny w3-center" style="color: white;">'Montreal' by The Weeknd</div>
+        </div>
+      </div>
+
+      <!-- Unedited & edited file half -->
+      <div id="soundstudiobottom">
+        <div class="w3-row-padding">
+        <div class="w3-half w3-center">
+          <p class="space2">Unedited File</p>
+          <audio controls="" class=""><source src="sounds/montreal_before.mp3" type="audio/mpeg"></audio>
+            <div class="tiny">Original, instrumental sound file</div>
+        </div>
+        <div class="w3-half w3-center">
+          <p class="space2">Edited File</p>
+          <audio controls="" class=""><source src="sounds/montreal_after.mp3" type="audio/mpeg"></audio>
+            <div class="tiny">Sound file with amplify, pitch, bass & treble & delay effects</div>
+        </div>
+        </div>
+      </div>
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="w3-center w3-padding-large">
+      <table class="w3-padding-32">
+        <tr>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+            ><i class="fa fa-linkedin w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+            ><i class="fa fa-github w3-hover-opacity"></i
+          ></a></td>
+          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+          ></a></td>
+        </tr>
+      </table>
+      <p><a href="copyright.html">&copy; 2021 Stefana Chiritescu</a></p>
+    </footer>
+
+  </body>
+</html>

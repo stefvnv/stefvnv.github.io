@@ -1,113 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/favicon.png" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/w3.css" />
-    <link rel="stylesheet" href="css/template.css" />
+    <link rel="stylesheet" href="css/w3.css"/>
+    <link rel="stylesheet" href="css/template.css"/>
     <script src="js/script.js"></script>
     <title>About | Stefana Chiritescu</title>
-    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
-    <meta name="description" content="this is a template page" />
-    <meta name="keywords" content="keywords for this page" />
-  </head>
-  <body>
-    <header>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32"/>
+    <meta name="description" content="this is a template page"/>
+    <meta name="keywords" content="keywords for this page"/>
+</head>
+<body>
+<header>
 
     <!-- NAVBAR -->
     <nav id="navbar" class="w3-top">
-      <div class="w3-bar w3-pink w3-card">
-        <a
-          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
-          href="javascript:void(0)"
-          onclick="myFunction()"
-          title="Toggle Navigation Menu"
-          ><i class="fa fa-bars"></i
-        ></a>
-        <a href="about.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
-        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
-        <div class="w3-dropdown-hover w3-hide-small">
-          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
-            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
-            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
-            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
-            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
-            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
-            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
-          </div>
+        <div class="w3-bar w3-pink w3-card">
+            <a
+                    class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)"
+                    onclick="myFunction()"
+                    title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+            ></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="projects.html" class="w3-button w3-padding-large space">Projects<i
+                        class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
+                    <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
+                    <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
+                    <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
+                    <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
+                    <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
+                    <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
+                </div>
+            </div>
+            <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
         </div>
-        <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
-      </div>
     </nav>
 
-      <!-- NAV BAR ON SMALL SCREENS -->
-      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
-        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
-        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
+    <!-- NAV BAR ON SMALL SCREENS -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top"
+         style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6>
+            <b>Projects</b></h6></a>
+        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound
+            Studio</a>
         <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
-        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
+        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game
+            Development</a>
         <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
-        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
-        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
+        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software
+            Development</a>
+        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile
+            Methodologies</a>
         <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
-      </div>
-    </header>
+    </div>
+</header>
 
-    <!-- CONTENT FOR RESPECTIVE PAGE -->
-    <main>
+<!-- CONTENT FOR RESPECTIVE PAGE -->
+<main>
     <div class="bgimg-1 w3-display-container w3-hide-small">
-      <div class="w3-display-middle">
-        <div class="w3-text-white w3-hide-small">
-          <div id="hometext1">Stefana Chiritescu</div>
-          <div id="hometext2">Aspiring Software Engineer</div> 
+        <div class="w3-display-middle">
+            <div class="w3-text-white w3-hide-small">
+                <div id="hometext1">Stefana Chiritescu</div>
+                <div id="hometext2">Aspiring Software Engineer</div>
+            </div>
         </div>
-      </div>
     </div>
 
     <section id="about">
-      <h6 class="fonttitle">About Me</h6>
-      <p>Welcome! I'm Stefana Chiritescu.</p>
-      <p>I am currently studying Software Design at the Athlone Institute of Technology. A deep curiosity for technology and eagerness to experiment with it comes naturally to me. It is a great source of fascination to me,
-        and I like to think about how much it has changed throughout the years and affected us in the process. Problem solving is my forte, and I have always loved getting to the root of a particular problem through my own
-        research. Additionally, I possess a keen eye for detail, and an ardent urge to fix and improve things around me. I believe that in this day and age, that can be the most impactful when done through technology, as it
-        is the way we are all connected in this world where physical interaction is not possible.</p>
-      <p>As an organized and systematic individual, I love engaging with and organizing information or data, and would like to pursue a Masters Degree in Data Analytics once I complete my Undergraduate Degree.</p>
-      <p>Some of my hobbies include learning languages, travelling, playing video games and studying Astrology and Numerology.</p>
-      <p>Below, I have included a downloadable link to my CV.</p>
+        <h6 class="fonttitle">About Me</h6>
+        <p>Welcome! I'm Stefana Chiritescu.</p>
+        <p>I have recently graduated Software Design with Artificial Intelligence for Cloud Computing at the
+            Technological University of the Shannon, Athlone. My journey in technology is driven by a curiosity and an
+            eagerness to experiment. The ever-evolving landscape of technology never ceases to amaze me, and I find
+            great joy in contemplating its transformative impact on our lives over the years.
+            I relish the challenge of dissecting complex issues, delving deep into research, and unraveling solutions
+            that make a difference. I have an innate eye for detail, which fuels my determination to refine and enhance
+            the world around me. In today's interconnected world, I believe that leveraging technology for positive
+            change is paramount, especially when physical interactions are constrained.</p>
 
-      <br>
-      <br>
-    
-      <div class="w3-center">
-        <a href="downloads/StefanaChiritescuCV.docx" download="" class="w3-bar-item w3-button w3-padding-large" style="background-color: rgb(241, 218, 211); color: rgb(78, 78, 78); width: 250px;">Download CV</a>
-      </div>
+        <p>As an organized and systematic individual, I thrive on engaging with and organizing information and data.</p>
+
+        <p>Beyond the world of coding and data, I embrace a range of interests. Learning languages, travelling, diving
+            into virtual realms through video games, and delving into the mysteries of Astrology and Numerology are a
+            few of my many pursuits.</p>
+        <p>Below, I have included a downloadable link to my CV.</p>
+
+        <br>
+        <br>
+
+        <div class="w3-center">
+            <a href="downloads/StefanaChiritescuCV.docx" download="" class="w3-bar-item w3-button w3-padding-large"
+               style="background-color: rgb(241, 218, 211); color: rgb(78, 78, 78); width: 250px;">Download CV</a>
+        </div>
     </section>
-    </main>
+</main>
 
-    <!--FOOTER-->
-    <footer class="w3-center w3-padding-large">
-      <table class="w3-padding-32">
+<!--FOOTER-->
+<footer class="w3-center w3-padding-large">
+    <table class="w3-padding-32">
         <tr>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+            <td class="w3-xlarge w3-section w3-padding-small"><a
+                    href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
             ><i class="fa fa-linkedin w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank"
+                                                                 title="github"
             ><i class="fa fa-github w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv"
+                                                                 target="_blank" title="stack-overflow"
             ><i class="fa fa-stack-overflow w3-hover-opacity"></i
-          ></a></td>
+            ></a></td>
         </tr>
-      </table>
-      <p><a href="copyright.html">&copy; 2021 Stefana Chiritescu</a></p>
-    </footer>
+    </table>
+    <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
+</footer>
 
-  </body>
+</body>
 </html>

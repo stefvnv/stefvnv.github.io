@@ -1,242 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/favicon.png" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d5d023c746.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/w3.css" />
-    <link rel="stylesheet" href="css/template.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css"/>
+    <link rel="stylesheet" href="css/template.css"/>
     <script src="js/script.js"></script>
     <title>Skills | Stefana Chiritescu</title>
-    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
-    <meta name="description" content="this is a template page" />
-    <meta name="keywords" content="keywords for this page" />
-  </head>
-  <body>
-    <header>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32"/>
+    <meta name="description" content="this is a template page"/>
+    <meta name="keywords" content="keywords for this page"/>
+</head>
+<body>
+<header>
 
     <!-- NAVBAR -->
     <nav id="navbar" class="w3-top">
-      <div class="w3-bar w3-pink w3-card">
-        <a
-          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
-          href="javascript:void(0)"
-          onclick="myFunction()"
-          title="Toggle Navigation Menu"
-          ><i class="fa fa-bars"></i
-        ></a>
-        <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">About</a>
-        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
-        <div class="w3-dropdown-hover w3-hide-small">
-          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="soundstudio.html" class="w3-bar-item w3-button">Sound Studio</a>
-            <a href="gallery.html" class="w3-bar-item w3-button">Image Gallery</a>
-            <a href="gamedev.html" class="w3-bar-item w3-button">Game Development</a>
-            <a href="webdev.html" class="w3-bar-item w3-button">Web Development</a>
-            <a href="softwaredev.html" class="w3-bar-item w3-button">Software Development</a>
-            <a href="agile.html" class="w3-bar-item w3-button">Agile Methodologies</a>
-            <a href="tutorial.html" class="w3-bar-item w3-button">Tutorials</a>
-          </div>
+        <div class="w3-bar w3-pink w3-card">
+            <a
+                    class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)"
+                    onclick="myFunction()"
+                    title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+            ></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">Home</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="projects.html" class="w3-button w3-padding-large space">Projects<i
+                        class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="employee-portal.html" class="w3-bar-item w3-button">Employee Portal</a>
+                    <a href="computerium.html" class="w3-bar-item w3-button">Computerium</a>
+                    <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button">Zodiac Sign Calculator</a>
+                    <a href="vet-management-system.html" class="w3-bar-item w3-button">Veterinary Clinic Management
+                        System</a>
+                    <a href="grade-management-system.html" class="w3-bar-item w3-button">Grade Management System</a>
+                    <a href="astrologion.html" class="w3-bar-item w3-button">Astrologion</a>
+                    <a href="dessertly.html" class="w3-bar-item w3-button">Dessertly</a>
+                    <a href="spaniscape.html" class="w3-bar-item w3-button">Spaniscape</a>
+                    <a href="pc-parts.html" class="w3-bar-item w3-button">PC Parts</a>
+                    <a href="calculator-project.html" class="w3-bar-item w3-button">JavaScript Tools</a>
+                    <a href="pixel-paint.html" class="w3-bar-item w3-button">Pixel Paint</a>
+                    <a href="sailor-moon.html" class="w3-bar-item w3-button">Sailor Moon</a>
+                </div>
+            </div>
+            <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
         </div>
-        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
-      </div>
     </nav>
 
-      <!-- NAV BAR ON SMALL SCREENS -->
-      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top: 46px">
-        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6><b>Projects</b></h6></a>
-        <a href="soundstudio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sound Studio</a>
-        <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">image Gallery</a>
-        <a href="gamedev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Game Development</a>
-        <a href="webdev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Web Development</a>
-        <a href="softwaredev.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Software Development</a>
-        <a href="agile.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Agile Methodologies</a>
-        <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tutorial</a>
-      </div>
-    </header>
+    <!-- NAV BAR ON SMALL SCREENS -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top"
+         style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6>
+            <b>Projects</b></h6></a>
 
-    <!-- CONTENT FOR RESPECTIVE PAGE -->
-    <main>
-        <div id="skills">
+        <a href="employee-portal.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Employee
+            Portal</a>
+        <a href="computerium.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Computerium</a>
+        <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Zodiac
+            Sign Calculator</a>
+        <a href="vet-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Veterinary
+            Clinic Management
+            System</a>
+        <a href="grade-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Grade
+            Management System</a>
+        <a href="astrologion.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Astrologion</a>
+        <a href="dessertly.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Dessertly</a>
+        <a href="spaniscape.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Spaniscape</a>
+        <a href="pc-parts.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PC Parts</a>
+        <a href="calculator-project.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">JavaScript
+            Tools</a>
+        <a href="pixel-paint.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Pixel Paint</a>
+        <a href="sailor-moon.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sailor Moon</a>
+    </div>
+</header>
+
+<!-- CONTENT FOR RESPECTIVE PAGE -->
+<main>
+    <div id="skills">
         <div id="menu">
             <div class="w3-content" style="max-width:1100px; padding-bottom: 6%;">
-              <h5 class="w3-center w3-padding-48" id="title">Skills</h5>
-            
-              <div class="w3-row w3-center w3-card w3-padding">
-                <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-                  <div class="w3-col s6 tablink">Tech</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-                  <div class="w3-col s6 tablink">Other</div>
-                </a>
-              </div>
+                <h5 class="w3-center w3-padding-48" id="title">Skills</h5>
 
-              <!-- TECH (LEFT) -->
-              <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-                <div class="w3-content"> 
-
-                <p class="w3-wide"><i class="fas fa-mug-hot"></i> Java</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 66%; min-height: 20px"></div>
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                        <div class="w3-col s6 tablink">Tech</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                        <div class="w3-col s6 tablink">Other</div>
+                    </a>
                 </div>
-                <p>Being a high-level programming language, learning Java has helped me understand all the fundamentals of programming.
-                  Understanding data types, decisions, loops, methods, arrays and objects in Java has helped me greatly in understanding other programming languages as
-                  well as these are the concepts needed to understand any language.
-                </p> 
-                <p><i><a href="softwaredev.html">Click here to see of the programs I created using Java.</a></i></p>
 
-                <br/>
-                <p class="w3-wide"><i class="fas fa-code"></i> HTML, CSS & Javascript</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 78%; min-height: 20px"></div>
+                <!-- TECH (LEFT) -->
+                <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+                    <div class="w3-content">
+
+                        <p class="w3-wide"><i class="fa-brands fa-python fa-beat"></i> Python</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 90%; min-height: 20px"></div>
+                        </div>
+                        <p>Being a high-level programming language, learning Java has helped me understand all the
+                            fundamentals of programming.
+                            Understanding data types, decisions, loops, methods, arrays and objects in Java has helped
+                            me greatly in understanding other programming languages as
+                            well as these are the concepts needed to understand any language.
+                        </p>
+                        <p><i><a href="softwaredev.html">Click here to see of the programs I created using Java.</a></i>
+                        </p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-brands fa-java fa-beat"></i> Java</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 70%; min-height: 20px"></div>
+                        </div>
+                        <p>Hyper Text Markup Language(HTML), CSS & JavaScript are some of the most essential
+                            technologies/languages to know and understand for creating an appealing and interactive
+                            web page. I am able to create a website from scratch and design the layout with HTML, design
+                            and make it responsive with CSS, and create many interactive
+                            features such as pop-ups using JavaScript.
+                        </p>
+                        <p><i><a href="webdev.html">Click here to see websites I have created using HTML, CSS &
+                            JavaScript.</a></i></p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-solid fa-database fa-beat"></i> SQL</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 85%; min-height: 20px"></div>
+                        </div>
+                        <p>GameMaker Studio has taught me the fundamentals of game development and helped me understand
+                            programming through its user-friendly drag-and-drop interface.
+                            By creating sprites, objects, paths, sounds, backgrounds, scripts, timelines and rooms I now
+                            have the ability to put together and create the games I wish existed.
+                        </p>
+                        <p><i><a href="gamedev.html">Click here to see some games I have created.</a></i></p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-brands fa-square-js fa-beat"></i> JavaScript</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 70%; min-height: 20px"></div>
+                        </div>
+                        <p>Audacity has made it simple for me to understand how sound works through its visual and
+                            easy-to-use interface. Whether I want to crop and edit a sound to add it
+                            to a game I am working on or fix some sound for a voiceover tutorial, by using Audacity, I
+                            learned that the world is my oyster when it comes to sound manipulation
+                            as Audacity provides countless different tools to allow you to edit and combine any sound.
+                            Being able to manipulate sound as a Software Engineer has made it very
+                            easy for me to create the exact sound effects that I want for the content that I create.
+                        </p>
+                        <p><i><a href="soundstudio.html">Click here to go to the Sound Studio and see some of the
+                            projects I created using Audacity.</a></i></p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-solid fa-terminal fa-beat"></i> Shell Script</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 65%; min-height: 20px"></div>
+                        </div>
+                        <p>As an aspiring Software Engineer, I constantly find myself needing to modify different image
+                            files and learning how to use GIMP has made my ideas come to reality
+                            when it comes to image editing. Tools such as the paint brush, crop tool, scale tool, free
+                            select tool, fuzzy select tool, text tool and many other tools allow me
+                            to manipulate images to my heart’s desire.
+                        </p>
+                        <p><i><a href="gallery.html">Click here to see some of the images I created using GIMP.</a></i>
+                        </p>
+
+                        <br/>
+
+                        <p class="w3-wide"><i class="fa-brands fa-php fa-beat"></i> PHP</p>
+                        <div class="w3-light-grey" style="min-height: 20px">
+                            <div class="w3-container w3-padding-small w3-dark-grey w3-center"
+                                 style="width: 58%; min-height: 20px"></div>
+                        </div>
+                        <p>Learning to use OBS (Open Broadcaster Software) has taught me how to capture my video and
+                            audio in real time. I can make voice overs, how to tutorials or even stream some
+                            of my favourite games on multiple different platforms.
+                        </p>
+                        <p><i><a href="HTML%20DELETE/tutorial.html">Click here to see some tutorials I recorded using OBS.</a></i></p>
+
+                        <br>
+
+                    </div>
                 </div>
-                <p>Hyper Text Markup Language(HTML), CSS & JavaScript are some of the most essential technologies/languages to know and understand for creating an appealing and interactive
-                  web page. I am able to create a website from scratch and design the layout with HTML, design and make it responsive with CSS, and create many interactive
-                  features such as pop-ups using JavaScript.
-                </p>
-                <p><i><a href="webdev.html">Click here to see websites I have created using HTML, CSS & JavaScript.</a></i></p>
 
-                <br/>
-                <p class="w3-wide"><i class="fas fa-gamepad"></i> GameMaker Studio</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 75%; min-height: 20px"></div>
+                <!-- OTHER (RIGHT) -->
+                <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+                    <div class="w3-content">
+                        <p class="w3-wide"><i class="fas fa-people-group fa-beat"></i> Communication</p>
+                        <br/>
+                        <p class="w3-wide"><i class="fa-solid fa-lightbulb fa-beat"></i> Problem Solving</p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-solid fa-magnifying-glass-chart fa-beat"></i> Analytical</p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fas fa-language fa-beat"></i> English, Spanish & Romanian</p>
+
+                        <br/>
+                        <p class="w3-wide"><i class="fa-brands fa-microsoft fa-beat"></i> Microsoft Office Tools (Word,
+                            Excel, PowerPoint)</p>
+                        <br/>
+
+                    </div>
                 </div>
-                <p>GameMaker Studio has taught me the fundamentals of game development and helped me understand programming through its user-friendly drag-and-drop interface.
-                  By creating sprites, objects, paths, sounds, backgrounds, scripts, timelines and rooms I now have the ability to put together and create the games I wish existed. 
-                </p>
-                <p><i><a href="gamedev.html">Click here to see some games I have created.</a></i></p>
-
-                <br/>
-                <p class="w3-wide"><i class="fas fa-music"></i> Audacity</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 88%; min-height: 20px"></div>
-                </div>
-                <p>Audacity has made it simple for me to understand how sound works through its visual and easy-to-use interface. Whether I want to crop and edit a sound to add it
-                  to a game I am working on or fix some sound for a voiceover tutorial, by using Audacity, I learned that the world is my oyster when it comes to sound manipulation
-                  as Audacity provides countless different tools to allow you to edit and combine any sound. Being able to manipulate sound as a Software Engineer has made it very
-                  easy for me to create the exact sound effects that I want for the content that I create.
-                </p>
-                <p><i><a href="soundstudio.html">Click here to go to the Sound Studio and see some of the projects I created using Audacity.</a></i></p>
-
-                <br/>
-                <p class="w3-wide"><i class="fas fa-image"></i> GIMP</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 82%; min-height: 20px"></div>
-                </div>
-                <p>As an aspiring Software Engineer, I constantly find myself needing to modify different image files and  learning how to use GIMP has made my ideas come to reality
-                  when it comes to image editing. Tools such as the paint brush, crop tool, scale tool, free select tool, fuzzy select tool, text tool and many other tools allow me
-                  to manipulate images to my heart’s desire. 
-                </p>
-                <p><i><a href="gallery.html">Click here to see some of the images I created using GIMP.</a></i></p>
-
-                <br/>
-
-                <p class="w3-wide"><i class="fas fa-record-vinyl"></i> OBS</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 92%; min-height: 20px"></div>
-                </div>
-                <p>Learning to use OBS (Open Broadcaster Software) has taught me how to capture my video and audio in real time. I can make voice overs, how to tutorials or even stream some
-                  of my favourite games on multiple different platforms.
-                </p>
-                <p><i><a href="tutorial.html">Click here to see some tutorials I recorded using OBS.</a></i></p>
-
-                <br>
-      
-                </div>   
-              </div>
-
-              <!-- OTHER (RIGHT) -->
-              <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-                <div class="w3-content"> 
-                    <p class="w3-wide"><i class="fas fa-user-tie"></i> Agile Methodologies</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 76%; min-height: 20px"></div>
-                </div>
-                <p>Agile Methodologies is an essential method of developing software that I believe every programmer should familiarize themselves with. Agile Methodologies goes hand
-                  in hand with communication as it is largely focused on the idea of teamwork, adaptability and collaboration. Understanding Agile software development makes me feel more prepared
-                  for industry and helped me gain confidence in my profession.
-                </p>
-                <p><i><a href="agile.html">Click here to see the application I have created using Agile Methodologies.</a></i></p>
-
-
-                <br/>
-                <p class="w3-wide"><i class="fas fa-square-root-alt"></i> Mathematics</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 80%; min-height: 20px"></div>
-                </div>
-                <p>Through Mathematics, I learned many fundamental mathematical principles that improved my understanding of programming. Learning Differentiation, Taylor Series,
-                  Matrices, Vectors, Integration, Complex Numbers and Statistics have greatly enhanced my problem-solving and critical-thinking skills which are essential for any Software Engineer.
-                </p>
-
-                <br/>
-                <p class="w3-wide"><i class="fas fa-users"></i> Communications</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 86%; min-height: 20px"></div>
-                </div>
-                <p>The Communications module has taught me the importance of how you present yourself not only professionally but personally, too. Through various group activities, reflections, and
-                  assignments, I learned that you are showing a part of yourself in any piece of work that you create, whether physical or virtual.
-                </p>
-
-                <br/>
-                <p class="w3-wide"><i class="fas fa-language"></i> English, Spanish & Romanian</p>
-                <div class="w3-light-grey" style="min-height: 20px">
-                  <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 90%; min-height: 20px"></div>
-                </div>
-                <p>I have been a lover of languages for a long time. Due to moving between Ireland and Romania multiple times when I was younger, I became fluent in both English and Romanian. In
-                  secondary school, I discovered my love for ‘romance’ languages when I started taking a Spanish class and have continuously been improving my skills through watching movies, listening
-                  to Latin music or having conversations with various different friends. Speaking foreign languages has brought out parts of my personality I never knew existed.
-                </p>
-
-                <br/>
-    
-                </div>
-              </div>  
 
             </div>
-          </div>
         </div>
-    </main>
+    </div>
+</main>
 
-    <!--FOOTER-->
-    <footer class="w3-center w3-padding-large">
-      <table class="w3-padding-32">
+<!--FOOTER-->
+<footer class="w3-center w3-padding-large">
+    <table class="w3-padding-32">
         <tr>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefana-chiritescu-971122162/" target="_blank" title="linkedin"
+            <td class="w3-xlarge w3-section w3-padding-small"><a
+                    href="https://www.linkedin.com/in/stefanachi/" target="_blank" title="linkedin"
             ><i class="fa fa-linkedin w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank"
+                                                                 title="github"
             ><i class="fa fa-github w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv"
+                                                                 target="_blank" title="stack-overflow"
             ><i class="fa fa-stack-overflow w3-hover-opacity"></i
-          ></a></td>
+            ></a></td>
         </tr>
-      </table>
-      <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
-    </footer>
+    </table>
+    <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
+</footer>
 
-    <!--SKILLS SWITCH-->
-    <script>
-        function openMenu(evt, menuName) {
-          var i, x, tablinks;
-          x = document.getElementsByClassName("menu");
-          for (i = 0; i < x.length; i++) {
+<!--SKILLS SWITCH-->
+<script>
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablink");
-          for (i = 0; i < x.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-          }
-          document.getElementById(menuName).style.display = "block";
-          evt.currentTarget.firstElementChild.className += " w3-dark-grey";
         }
-        document.getElementById("myLink").click();
-        </script>
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
 
-  </body>
+    document.getElementById("myLink").click();
+</script>
+
+</body>
 </html>

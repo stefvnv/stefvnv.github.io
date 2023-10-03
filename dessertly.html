@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" href="/images/favicon.png"/>
+    <link rel="icon" href="images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="/css/w3.css"/>
-    <link rel="stylesheet" href="/css/template.css"/>
-    <script src="/js/script.js"></script>
-    <title>About | Stefana Chiritescu</title>
+    <link rel="stylesheet" href="css/w3.css"/>
+    <link rel="stylesheet" href="css/template.css"/>
+    <script src="js/script.js"></script>
+    <title>Dessertly | Stefana Chiritescu</title>
     <link rel="icon" href="#" type="image/jpg" sizes="32x32"/>
     <meta name="description" content="this is a template page"/>
     <meta name="keywords" content="keywords for this page"/>
@@ -82,57 +82,80 @@
 </header>
 
 <!-- CONTENT FOR RESPECTIVE PAGE -->
-<main>
-    <div class="bgimg-1 w3-display-container w3-hide-small">
-        <div class="w3-display-middle">
-            <div class="w3-text-white w3-hide-small">
-                <div id="hometext1">Stefana Chiritescu</div>
-                <div id="hometext2">Aspiring Software Engineer</div>
+<div id="section">
+    <h5 class="w3-center" id="title">Dessertly</h5>
+</div>
+
+<main id="gamedev">
+    <!--Pixel Paint-->
+    <div id="pixelpaint">
+        <div class="w3-container w3-padding-large">
+            <h6 class="fonttitle">Concept and Genre</h6>
+            <p>Dessertly is your go-to dessert recipe app for indulging your sweet tooth cravings. This delectable app
+                offers a curated selection of 10 mouthwatering dessert recipes, allowing users to explore, create, and
+                savor delicious treats.</p><br>
+
+            <h6 class="fonttitle">Features</h6>
+            <p class="w3-wide">Delicious Dessert Recipes</p>
+            <p>Explore a handpicked collection of 10 irresistible dessert recipes to satisfy your sweet cravings.</p>
+            <br>
+
+            <p class="w3-wide">Recipe Management</p>
+            <p>Mark recipes as complete, write and save personalized notes, and keep track of your culinary
+                adventures.</p><br>
+
+            <p class="w3-wide">Capture Culinary Triumphs</p>
+            <p>Document your culinary masterpieces by taking pictures of your dessert creations.</p><br>
+
+            <p class="w3-wide">Dark Mode</p>
+            <p>For those late-night sweet tooth cravings, switch to dark mode for a visually soothing experience.</p>
+            <br>
+
+            <div class="w3-row-padding" style="margin-bottom:50px">
+                <div class="w3-third">
+                    <img src="images/dessertly/dessertly1.jpg" style="width:100%" onclick="onClick(this)"
+                         alt="Recipe Management">
+                </div>
+
+                <div class="w3-third">
+                    <img src="images/dessertly/dessertly2.jpg" style="width:100%" onclick="onClick(this)"
+                         alt="Dark Mode">
+                </div>
+
+                <div class="w3-third">
+                    <img src="images/dessertly/dessertly3.jpg" style="width:100%" onclick="onClick(this)"
+                         alt="Delicious Dessert Recipes">
+                </div>
             </div>
+
+            <!--WHAT DISPLAYS WHEN IMAGE IS CLICKED -->
+            <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+                <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" id="img01"
+                         class="w3-image" style="width: 200%;" alt="x">
+                    <p id="caption"></p>
+                </div>
+            </div>
+
+            <h6 class="fonttitle">Target Audience</h6>
+            <p>Dessertly is designed for dessert enthusiasts, home bakers, and anyone with a penchant for sweet
+                indulgence. It's perfect for users of all ages looking to explore and create delectable desserts.</p>
+            <br>
+
+            <h6 class="fonttitle">Compatibility</h6>
+            <p>Dessertly is compatible with Android devices, offering dessert inspiration and creativity at your
+                fingertips.</p>
         </div>
     </div>
-
-    <section id="about">
-        <h6 class="fonttitle">About Me</h6>
-        <p>Welcome! I'm Stefana Chiritescu.</p>
-        <p>I have recently graduated Software Design with Artificial Intelligence for Cloud Computing at the
-            Technological University of the Shannon, Athlone. A deep curiosity for technology and eagerness to
-            experiment with it comes naturally to me. It is a great source of fascination to me,
-            and I like to think about how much it has changed throughout the years and affected us in the process.
-            Problem solving is my forte, and I have always loved getting to the root of a particular problem through my
-            own
-            research. Additionally, I possess a keen eye for detail, and an ardent urge to fix and improve things around
-            me. I believe that in this day and age, that can be the most impactful when done through technology, as it
-            is the way we are all connected in this world where physical interaction is not possible.</p>
-        <p>As an organized and systematic individual, I love engaging with and organizing information or data, and would
-            like to pursue a Masters Degree in Data Analytics once I complete my Undergraduate Degree.</p>
-
-
-        <p></p>
-
-        <p>Some of my hobbies include learning languages, travelling, playing video games and studying Astrology and
-            Numerology.</p>
-
-        <p>From here, I invite you to explore my portfolio, a testament to my dedication for technology, data and
-            design.</p>
-        <p>Below, I have included a downloadable link to my CV.</p>
-
-        <br>
-        <br>
-
-        <div class="w3-center">
-            <a href="/downloads/StefanaChiritescuCV.docx" download="" class="w3-bar-item w3-button w3-padding-large"
-               style="background-color: rgb(241, 218, 211); color: rgb(78, 78, 78); width: 250px;">Download CV</a>
-        </div>
-    </section>
 </main>
 
 <!--FOOTER-->
 <footer class="w3-center w3-padding-large">
     <table class="w3-padding-32">
         <tr>
-            <td class="w3-xlarge w3-section w3-padding-small"><a
-                    href="https://www.linkedin.com/in/stefanachi/" target="_blank" title="linkedin"
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefanachi/"
+                                                                 target="_blank" title="linkedin"
             ><i class="fa fa-linkedin w3-hover-opacity"></i
             ></a></td>
             <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank"
@@ -147,6 +170,86 @@
     </table>
     <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
 </footer>
+
+<!--Sailor Moon Slideshow-->
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-opacity-off";
+    }
+</script>
+
+<!--Pixel Paint Slideshow-->
+<script>
+    var slideIndex2 = 1;
+    showDivss(slideIndex2);
+
+    function plusDivss(m) {
+        showDivss(slideIndex2 += m);
+    }
+
+    function currentDiv2(m) {
+        showDivss(slideIndex2 = m);
+    }
+
+    function showDivss(m) {
+        var j;
+        var y = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("demo2");
+
+        if (m > y.length) {
+            slideIndex2 = 1
+        }
+        if (m < 1) {
+            slideIndex2 = y.length
+        }
+        for (j = 0; j < y.length; j++) {
+            y[j].style.display = "none";
+        }
+        for (j = 0; j < dots.length; j++) {
+            dots[j].className = dots[j].className.replace(" w3-opacity-off", "");
+        }
+        y[slideIndex2 - 1].style.display = "block";
+        dots[slideIndex2 - 1].className += " w3-opacity-off";
+    }
+</script>
+
+<!--IMAGE ENLARGE-->
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
 
 </body>
 </html>

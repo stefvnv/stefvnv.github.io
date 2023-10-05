@@ -1,358 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/favicon.png" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/w3.css" />
-    <link rel="stylesheet" href="css/template.css" />
+    <link rel="stylesheet" href="css/w3.css"/>
+    <link rel="stylesheet" href="css/template.css"/>
     <script src="js/script.js"></script>
     <title>Projects | Stefana Chiritescu</title>
-    <link rel="icon" href="#" type="image/jpg" sizes="32x32" />
-    <meta name="description" content="this is a template page" />
-    <meta name="keywords" content="keywords for this page" />
-  </head>
-  <body>
-    <header>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32"/>
+    <meta name="description" content="this is a template page"/>
+    <meta name="keywords" content="keywords for this page"/>
+</head>
+<body>
+<header>
 
     <!-- NAVBAR -->
     <nav id="navbar" class="w3-top">
-      <div class="w3-bar w3-pink w3-card">
-        <a
-          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
-          href="javascript:void(0)"
-          onclick="myFunction()"
-          title="Toggle Navigation Menu"
-          ><i class="fa fa-bars"></i
-        ></a>
-        <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">Home</a>
-        <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
-        <div class="w3-dropdown-hover w3-hide-small">
-          <a href="projects.html" class="w3-button w3-padding-large space">Projects<i class="fa fa-caret-down"></i></a>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="employee-portal.html" class="w3-bar-item w3-button">Employee Portal</a>
-            <a href="computerium.html" class="w3-bar-item w3-button">Computerium</a>
-            <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button">Zodiac Sign Calculator</a>
-            <a href="vet-management-system.html" class="w3-bar-item w3-button">Veterinary Clinic Management System</a>
-            <a href="grade-management-system.html" class="w3-bar-item w3-button">Grade Management System</a>
-            <a href="astrologion.html" class="w3-bar-item w3-button">Astrologion</a>
-            <a href="dessertly.html" class="w3-bar-item w3-button">Dessertly</a>
-            <a href="spaniscape.html" class="w3-bar-item w3-button">Spaniscape</a>
-            <a href="pc-parts.html" class="w3-bar-item w3-button">PC Parts</a>
-            <a href="calculator-project.html" class="w3-bar-item w3-button">Calculator</a>
-            <a href="pixel-paint.html" class="w3-bar-item w3-button">Pixel Paint</a>
-            <a href="sailor-moon.html" class="w3-bar-item w3-button">Sailor Moon</a>
-          </div>
+        <div class="w3-bar w3-pink w3-card">
+            <a
+                    class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)"
+                    onclick="myFunction()"
+                    title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+            ></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">Home</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="projects.html" class="w3-button w3-padding-large space">Projects<i
+                        class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="employee-portal.html" class="w3-bar-item w3-button">Employee Portal</a>
+                    <a href="computerium.html" class="w3-bar-item w3-button">Computerium</a>
+                    <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button">Zodiac Sign Calculator</a>
+                    <a href="vet-management-system.html" class="w3-bar-item w3-button">Veterinary Clinic Management
+                        System</a>
+                    <a href="grade-management-system.html" class="w3-bar-item w3-button">Grade Management System</a>
+                    <a href="astrologion.html" class="w3-bar-item w3-button">Astrologion</a>
+                    <a href="dessertly.html" class="w3-bar-item w3-button">Dessertly</a>
+                    <a href="spaniscape.html" class="w3-bar-item w3-button">Spaniscape</a>
+                    <a href="pc-parts.html" class="w3-bar-item w3-button">PC Parts</a>
+                    <a href="calculator-project.html" class="w3-bar-item w3-button">Calculator</a>
+                    <a href="pixel-paint.html" class="w3-bar-item w3-button">Pixel Paint</a>
+                    <a href="sailor-moon.html" class="w3-bar-item w3-button">Sailor Moon</a>
+                </div>
+            </div>
+            <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
         </div>
-        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
-      </div>
     </nav>
 
-      <!-- NAV BAR ON SMALL SCREENS -->
-      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top"
-           style="margin-top: 46px">
+    <!-- NAV BAR ON SMALL SCREENS -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top"
+         style="margin-top: 46px">
         <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6>
-          <b>Projects</b></h6></a>
+            <b>Projects</b></h6></a>
 
         <a href="employee-portal.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Employee
-          Portal</a>
+            Portal</a>
         <a href="computerium.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Computerium</a>
         <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Zodiac
-          Sign Calculator</a>
+            Sign Calculator</a>
         <a href="vet-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Veterinary
-          Clinic Management
-          System</a>
+            Clinic Management
+            System</a>
         <a href="grade-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Grade
-          Management System</a>
+            Management System</a>
         <a href="astrologion.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Astrologion</a>
         <a href="dessertly.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Dessertly</a>
         <a href="spaniscape.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Spaniscape</a>
         <a href="pc-parts.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PC Parts</a>
         <a href="calculator-project.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">JavaScript
-          Tools</a>
+            Tools</a>
         <a href="pixel-paint.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Pixel Paint</a>
         <a href="sailor-moon.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sailor Moon</a>
-      </div>
-    </header>
+    </div>
+</header>
 
-    <!-- CONTENT FOR RESPECTIVE PAGE -->
-    <main>
+<!-- CONTENT FOR RESPECTIVE PAGE -->
+<main>
 
-      <!--Parallax Cover -->
-      <div class="bgimg-2 w3-display-container">
+    <!--Parallax Cover -->
+    <div class="bgimg-2 w3-display-container">
         <div class="w3-display-middle">
-          <span id="projectstext">Projects</span>
+            <span id="projectstext">Projects</span>
         </div>
-      </div>
+    </div>
 
-      <!-- OPTION 1 -->
-      <div id="project">
+    <!-- OPTION 1 -->
+    <div id="project">
 
         <div id="menu" style="margin-top: 5%">
-          <div class="w3-content" style="max-width:1600px; padding-bottom: 6%;">
-            <br>
-              <div class="w3-row w3-center w3-card w3-padding">
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side1');" id="myLink">
-                  <div class="w3-col s2 tablink">All</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side2');">
-                  <div class="w3-col s2 tablink">Python Development</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side3');" id="myLink">
-                  <div class="w3-col s2 tablink">Java Development</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side4');">
-                  <div class="w3-col s2 tablink">Android Development</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side5');" id="myLink">
-                  <div class="w3-col s2 tablink">Web Development</div>
-                </a>
-                <a href="javascript:void(0)" onclick="openMenu(event, 'side6');">
-                  <div class="w3-col s2 tablink">Game Development</div>
-                </a>
-              </div>
+            <div class="w3-content" style="max-width:1600px; padding-bottom: 6%;">
+                <br>
+                <div class="w3-row w3-center w3-card w3-padding">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side1');" id="myLink">
+                        <div class="w3-col s2 tablink">All</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side2');">
+                        <div class="w3-col s2 tablink">Python Development</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side3');" id="myLink">
+                        <div class="w3-col s2 tablink">Java Development</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side4');">
+                        <div class="w3-col s2 tablink">Android Development</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side5');" id="myLink">
+                        <div class="w3-col s2 tablink">Web Development</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'side6');">
+                        <div class="w3-col s2 tablink">Game Development</div>
+                    </a>
+                </div>
 
-              <!--1-->
-              <div id="side1" class="menu w3-padding-48 w3-card" style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
+                <!--1-->
+                <div id="side1" class="menu w3-padding-48 w3-card" style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
 
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Sound Studio</h6>
-                      <img src="images/projects/soundstudio.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Sound Studio">
-                      <div><a href="soundstudio.html"><i>Learn more</i></a></div>
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Employee Portal</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Sound Studio">
+                                <div><a href="employee-portal.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Computerium</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Image Gallery">
+                                <div><a href="computerium.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Zodiac Sign Calculator</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Sailor Moon: The Game">
+                                <div><a href="zodiac-sign-calculator.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Vet Clinic Management System</h6>
+                                <img src="images/projects/projects_vet.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Pixel Paint">
+                                <div><a href="vet-management-system.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Grade Management System</h6>
+                                <img src="images/projects/projects_grade.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Astrologion">
+                                <div><a href="grade-management-system.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Astrologion</h6>
+                                <img src="images/projects/projects_astrologion.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Calculator">
+                                <div><a href="astrologion.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Dessertly</h6>
+                                <img src="images/projects/projects_dessertly.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Java Guessing Game">
+                                <div><a href="dessertly.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Spaniscape</h6>
+                                <img src="images/projects/projects_spaniscape.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Calculator Application">
+                                <div><a href="spaniscape.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">PC Parts</h6>
+                                <img src="images/projects/projects_pc.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: First Java Project">
+                                <div><a href="pc-parts.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Calculator</h6>
+                                <img src="images/projects/projects_calculator.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: Import Font into GIMP">
+                                <div><a href="calculator-project.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Pixel Paint</h6>
+                                <img src="images/projects/project_pixel.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: First Java Project">
+                                <div><a href="pixel-paint.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Sailor Moon</h6>
+                                <img src="images/projects/project_sailor.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: Import Font into GIMP">
+                                <div><a href="sailor-moon.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Image Gallery</h6>
-                      <img src="images/projects/gallery.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Image Gallery">
-                      <div><a href="gallery.html"><i>Learn more</i></a></div>
+                <!--2-->
+                <div id="side2" class="w3-container menu w3-padding-48 w3-card"
+                     style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Employee Portal</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Sound Studio">
+                                <div><a href="employee-portal.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Computerium</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Image Gallery">
+                                <div><a href="computerium.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Zodiac Sign Calculator</h6>
+                                <img src="images/projects/soundstudio.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Sailor Moon: The Game">
+                                <div><a href="zodiac-sign-calculator.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Sailor  Moon: The Game</h6>
-                      <img src="images/projects/sailormoon.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Sailor Moon: The Game">
-                      <div><a href="gamedev.html#sailormoon"><i>Learn more</i></a></div>
+                <!--3-->
+                <div id="side3" class="w3-container menu w3-padding-48 w3-card "
+                     style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Vet Clinic Management System</h6>
+                                <img src="images/projects/projects_vet.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Pixel Paint">
+                                <div><a href="vet-management-system.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Grade Management System</h6>
+                                <img src="images/projects/projects_grade.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Astrologion">
+                                <div><a href="grade-management-system.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Pixel Paint</h6>
-                      <img src="images/projects/pixelpaint.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Pixel Paint">
-                      <div><a href="gamedev.html#pixelpaint"><i>Learn more</i></a></div>
+                <!--4-->
+                <div id="side4" class="w3-container menu w3-padding-48 w3-card "
+                     style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Astrologion</h6>
+                                <img src="images/projects/projects_astrologion.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Calculator">
+                                <div><a href="astrologion.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Dessertly</h6>
+                                <img src="images/projects/projects_dessertly.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Java Guessing Game">
+                                <div><a href="dessertly.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Spaniscape</h6>
+                                <img src="images/projects/projects_spaniscape.jpg" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="Calculator Application">
+                                <div><a href="spaniscape.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
 
-                  <br>
+                <!--5-->
+                <div id="side5" class="w3-container menu w3-padding-48 w3-card "
+                     style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
 
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Astrologion</h6>
-                      <img src="images/projects/astrologion.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Astrologion">
-                      <div><a href="webdev.html#astrologion"><i>Learn more</i></a></div>
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">PC Parts</h6>
+                                <img src="images/projects/projects_pc.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: First Java Project">
+                                <div><a href="pc-parts.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Calculator</h6>
+                                <img src="images/projects/projects_calculator.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: Import Font into GIMP">
+                                <div><a href="calculator-project.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Calculator</h6>
-                      <img src="images/projects/javascripttools.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Calculator">
-                      <div><a href="webdev.html#javascripttools"><i>Learn more</i></a></div>
+                <!--6-->
+                <div id="side6" class="w3-container menu w3-padding-48 w3-card "
+                     style="background-color: rgb(247, 234, 230)">
+                    <div class="w3-center">
+
+                        <div class="w3-row-padding w3-section">
+                            <div class="w3-col s3">
+                                <h6 class="fonttitle">Pixel Paint</h6>
+                                <img src="images/projects/project_pixel.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: First Java Project">
+                                <div><a href="pixel-paint.html"><i>Learn more</i></a></div>
+                            </div>
+
+                            <div class="w3-col s3 tablink">
+                                <h6 class="fonttitle">Sailor Moon</h6>
+                                <img src="images/projects/project_sailor.png" class="w3-hide-small"
+                                     style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)"
+                                     alt="How to: Import Font into GIMP">
+                                <div><a href="sailor-moon.html"><i>Learn more</i></a></div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Java Guessing Game</h6>
-                      <img src="images/projects/guessinggame.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Java Guessing Game">
-                      <div><a href="softwaredev.html"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Calculator Application</h6>
-                      <img src="images/projects/agile.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Calculator Application">
-                      <div><a href="agile.html"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-
-                  <br>
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">How to: First Java Project</h6>
-                      <img src="images/projects/tutorial1.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="How to: First Java Project">
-                      <div><a href="HTML%20DELETE/tutorial.html#tut1"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">How to: Import Font into GIMP</h6>
-                      <img src="images/projects/tutorial2.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="How to: Import Font into GIMP">
-                      <div><a href="HTML%20DELETE/tutorial.html#tut2"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-
-                </div>   
-              </div>
-
-              <!--2-->
-              <div id="side2" class="w3-container menu w3-padding-48 w3-card" style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Sound Studio</h6>
-                      <img src="images/projects/soundstudio.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Sound Studio">
-                      <div><a href="soundstudio.html"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Image Gallery</h6>
-                      <img src="images/projects/gallery.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Image Gallery">
-                      <div><a href="gallery.html"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-                </div>   
-              </div> 
-
-              <!--3-->
-              <div id="side3" class="w3-container menu w3-padding-48 w3-card " style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Sailor Moon: The Game</h6>
-                      <img src="images/projects/sailormoon.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Sailor Moon: The Game">
-                      <div><a href="gamedev.html#sailormoon"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Pixel Paint</h6>
-                      <img src="images/projects/pixelpaint.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Pixel Paint">
-                      <div><a href="gamedev.html#pixelpaint"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-                </div>   
-              </div>
-
-              <!--4-->
-              <div id="side4" class="w3-container menu w3-padding-48 w3-card " style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Astrologion</h6>
-                      <img src="images/projects/astrologion.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Astrologion">
-                      <div><a href="webdev.html#astrologion"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Calculator</h6>
-                      <img src="images/projects/javascripttools.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Calculator">
-                      <div><a href="webdev.html#javascripttools"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-                </div>   
-              </div> 
-
-              <!--5-->
-              <div id="side5" class="w3-container menu w3-padding-48 w3-card " style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">Java Guessing Game</h6>
-                      <img src="images/projects/guessinggame.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Java Guessing Game">
-                      <div><a href="softwaredev.html"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">Calculator Application</h6>
-                      <img src="images/projects/agile.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="Calculator Application">
-                      <div><a href="agile.html"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-                </div>   
-              </div>
-
-              <!--6-->
-              <div id="side6" class="w3-container menu w3-padding-48 w3-card " style="background-color: rgb(247, 234, 230)">
-                <div class="w3-center"> 
-
-                  <div class="w3-row-padding w3-section">
-                    <div class="w3-col s3">
-                      <h6 class="fonttitle">How to: First Java Project</h6>
-                      <img src="images/projects/tutorial1.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="How to: First Java Project">
-                      <div><a href="HTML%20DELETE/tutorial.html#tut1"><i>Learn more</i></a></div>
-                    </div>
-
-                    <div class="w3-col s3 tablink">
-                      <h6 class="fonttitle">How to: Import Font into GIMP</h6>
-                      <img src="images/projects/tutorial2.png" class="w3-hide-small" style="width: 280px; height: 280px; border-radius: 280px;" onclick="onClick(this)" alt="How to: Import Font into GIMP">
-                      <div><a href="HTML%20DELETE/tutorial.html#tut2"><i>Learn more</i></a></div>
-                    </div>
-                  </div>
-                </div>   
-              </div>
-          </div>
+                </div>
+            </div>
         </div>
 
         <!--WHAT DISPLAYS WHEN IMAGE IS CLICKED -->
         <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-          <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-          <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" id="img01" class="w3-image" style="width: 100%;" alt="x">
-            <p id="caption"></p>
-          </div>
+            <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" id="img01" class="w3-image"
+                     style="width: 100%;" alt="x">
+                <p id="caption"></p>
+            </div>
         </div>
 
-      </div>
-    </main>
-    
-    <!--FOOTER-->
-    <footer class="w3-center w3-padding-large">
-      <table class="w3-padding-32">
-        <tr>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefanachi/" target="_blank" title="linkedin"
-            ><i class="fa fa-linkedin w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank" title="github"
-            ><i class="fa fa-github w3-hover-opacity"></i
-          ></a></td>
-          <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv" target="_blank" title="stack-overflow"
-            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
-          ></a></td>
-        </tr>
-      </table>
-      <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
-    </footer>
+    </div>
+</main>
 
-   <!--IMAGE ENLARGE-->
-    <script>
-      function onClick(element) 
-        {
-          document.getElementById("img01").src = element.src;
-          document.getElementById("modal01").style.display = "block";
-          var captionText = document.getElementById("caption");
-           captionText.innerHTML = element.alt;
-        }
-    </script>
-    
-    <!--SECTION SWITCH-->
-    <script>
-      function openMenu(evt, menuName) {
+<!--FOOTER-->
+<footer class="w3-center w3-padding-large">
+    <table class="w3-padding-32">
+        <tr>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefanachi/"
+                                                                 target="_blank" title="linkedin"
+            ><i class="fa fa-linkedin w3-hover-opacity"></i
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank"
+                                                                 title="github"
+            ><i class="fa fa-github w3-hover-opacity"></i
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv"
+                                                                 target="_blank" title="stack-overflow"
+            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+            ></a></td>
+        </tr>
+    </table>
+    <p><a href="copyright.html">&copy; 2024 Stefana Chiritescu</a></p>
+</footer>
+
+<!--IMAGE ENLARGE-->
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+
+<!--SECTION SWITCH-->
+<script>
+    function openMenu(evt, menuName) {
         var i, x, tablinks;
         x = document.getElementsByClassName("menu");
         for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
+            x[i].style.display = "none";
         }
         tablinks = document.getElementsByClassName("tablink");
         for (i = 0; i < x.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+            tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
         }
         document.getElementById(menuName).style.display = "block";
         evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-      }
-      document.getElementById("myLink").click();
-      </script>
+    }
 
-  </body>
+    document.getElementById("myLink").click();
+</script>
+
+</body>
 </html>

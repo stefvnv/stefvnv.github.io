@@ -1,10 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/w3.css"/>
+    <link rel="stylesheet" href="css/template.css"/>
+    <script src="js/script.js"></script>
+    <title>Computerium | Stefana Chiritescu</title>
+    <link rel="icon" href="#" type="image/jpg" sizes="32x32"/>
+    <meta name="description" content="this is a template page"/>
+    <meta name="keywords" content="keywords for this page"/>
 </head>
 <body>
+<header>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w3-top">
+        <div class="w3-bar w3-pink w3-card">
+            <a
+                    class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)"
+                    onclick="myFunction()"
+                    title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+            ></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large space">Home</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-padding-large space">Skills</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a href="projects.html" class="w3-button w3-padding-large space">Projects<i
+                        class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="employee-portal.html" class="w3-bar-item w3-button">Employee Portal</a>
+                    <a href="computerium.html" class="w3-bar-item w3-button">Computerium</a>
+                    <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button">Zodiac Sign Calculator</a>
+                    <a href="vet-management-system.html" class="w3-bar-item w3-button">Veterinary Clinic Management
+                        System</a>
+                    <a href="grade-management-system.html" class="w3-bar-item w3-button">Grade Management System</a>
+                    <a href="astrologion.html" class="w3-bar-item w3-button">Astrologion</a>
+                    <a href="dessertly.html" class="w3-bar-item w3-button">Dessertly</a>
+                    <a href="spaniscape.html" class="w3-bar-item w3-button">Spaniscape</a>
+                    <a href="pc-parts.html" class="w3-bar-item w3-button">PC Parts</a>
+                    <a href="calculator-project.html" class="w3-bar-item w3-button">Calculator</a>
+                    <a href="pixel-paint.html" class="w3-bar-item w3-button">Pixel Paint</a>
+                    <a href="sailor-moon.html" class="w3-bar-item w3-button">Sailor Moon</a>
+                </div>
+            </div>
+            <a href="contact.html" class="w3-bar-item w3-button w3-padding-large space" id="space">Contact</a>
+        </div>
+    </nav>
+
+    <!-- NAV BAR ON SMALL SCREENS -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top"
+         style="margin-top: 46px">
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><h6>
+            <b>Projects</b></h6></a>
+
+        <a href="employee-portal.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Employee
+            Portal</a>
+        <a href="computerium.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Computerium</a>
+        <a href="zodiac-sign-calculator.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Zodiac
+            Sign Calculator</a>
+        <a href="vet-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Veterinary
+            Clinic Management
+            System</a>
+        <a href="grade-management-system.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Grade
+            Management System</a>
+        <a href="astrologion.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Astrologion</a>
+        <a href="dessertly.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Dessertly</a>
+        <a href="spaniscape.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Spaniscape</a>
+        <a href="pc-parts.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PC Parts</a>
+        <a href="calculator-project.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">JavaScript
+            Tools</a>
+        <a href="pixel-paint.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Pixel Paint</a>
+        <a href="sailor-moon.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sailor Moon</a>
+    </div>
+</header>
+
+<!-- CONTENT FOR RESPECTIVE PAGE -->
+<div id="section">
+    <h5 class="w3-center" id="title">Computerium</h5>
+</div>
+
+<main id="gamedev">
+    <!--Pixel Paint-->
+    <div id="pixelpaint">
+        <div class="w3-container w3-padding-large">
+            <h6 class="fonttitle">Overview</h6>
+            <p>The Computerium desktop application demonstrates advanced object-oriented programming concepts, including
+                inheritance, polymorphism, and aggregation. This application allows users to assemble a custom PC by
+                selecting various PC parts, choosing shipping methods, and viewing the total price in their cart. It
+                showcases the power of Python's object-oriented capabilities.</p><br>
+
+            <h6 class="fonttitle">Features</h6>
+            <p class="w3-wide"><i class="fa-solid fa-square-check"></i> Extensive Part Selection</p>
+            <p>Computerium offers users a wide variety of PC parts to choose from, including CPUs, coolers, graphics
+                cards, motherboards, memory, storage devices, and power supplies. Each part category includes multiple
+                options for customization.</p><br>
+
+            <p class="w3-wide"><i class="fa-solid fa-bars-progress"></i> Dynamic Part Details</p>
+            <p>As users navigate through different part categories, the application dynamically updates part details,
+                providing relevant information specific to the selected part type. This dynamic behavior is achieved
+                through the use of polymorphism, enhancing user experience and clarity.</p><br>
+
+            <p class="w3-wide"><i class="fa-solid fa-cart-plus"></i> Efficient Shopping Cart</p>
+            <p>Users can easily add selected parts to their shopping cart. The application calculates the total price,
+                including both the part prices and shipping costs, allowing users to keep track of their expenses.</p>
+            <br>
+
+            <p class="w3-wide"><i class="fa-solid fa-list"></i> Cart Management</p>
+            <p>Computerium supports cart management features, enabling users to view the contents of their cart, empty
+                it, and receive notifications confirming successful actions. This simplifies the shopping process and
+                ensures a smooth user experience.</p><br>
+
+            <div class="w3-row-padding">
+                <div class="w3-half">
+                    <img src="images/computerium/computerium1.png" style="width:100%" onclick="onClick(this)"
+                         alt="Dynamic Part Details">
+                    <img src="images/computerium/computerium4.png" style="width:100%" onclick="onClick(this)"
+                         alt="Cart Management">
+                </div>
+
+                <div class="w3-half">
+                    <img src="images/computerium/computerium2.png" style="width:100%" onclick="onClick(this)"
+                         alt="Efficient Shopping Cart">
+                    <img src="images/computerium/computerium3.png" style="width:100%" onclick="onClick(this)"
+                         alt="Extensive Part Selection">
+                </div>
+            </div>
+            <br>
+
+            <!--WHAT DISPLAYS WHEN IMAGE IS CLICKED -->
+            <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+                <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" id="img01"
+                         class="w3-image" style="width: 200%;" alt="x">
+                    <p id="caption"></p>
+                </div>
+            </div>
+
+            <h6 class="fonttitle">Target Audience</h6>
+            <p>Computerium caters to users interested in building their custom PCs by selecting specific components
+                tailored to their needs. It serves as a valuable educational tool for those looking to understand
+                object-oriented programming concepts such as inheritance, polymorphism, and aggregation in Python.</p>
+            <br>
+
+            <h6 class="fonttitle">Compatibility</h6>
+            <p>The Computerium desktop application is compatible with Windows operating systems, offering a
+                user-friendly and educational experience to Python enthusiasts and programming learners alike.</p>
+            <br>
+
+            <h6 class="fonttitle">Demo</h6>
+            <div class="video-container">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/r-YtQUSeUuI?si=WWy4asH1AZ_Zc_Eu"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+</main>
+
+<!--FOOTER-->
+<footer class="w3-center w3-padding-large">
+    <table class="w3-padding-32">
+        <tr>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://www.linkedin.com/in/stefanachi/"
+                                                                 target="_blank" title="linkedin"
+            ><i class="fa fa-linkedin w3-hover-opacity"></i
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://github.com/stefvnv" target="_blank"
+                                                                 title="github"
+            ><i class="fa fa-github w3-hover-opacity"></i
+            ></a></td>
+            <td class="w3-xlarge w3-section w3-padding-small"><a href="https://stackoverflow.com/users/15185594/stefvnv"
+                                                                 target="_blank" title="stack-overflow"
+            ><i class="fa fa-stack-overflow w3-hover-opacity"></i
+            ></a></td>
+        </tr>
+    </table>
+    <p><a href="copyright.html">&copy; 2023 Stefana Chiritescu</a></p>
+</footer>
+
+<!--Sailor Moon Slideshow-->
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-opacity-off";
+    }
+</script>
+
+<!--Pixel Paint Slideshow-->
+<script>
+    var slideIndex2 = 1;
+    showDivss(slideIndex2);
+
+    function plusDivss(m) {
+        showDivss(slideIndex2 += m);
+    }
+
+    function currentDiv2(m) {
+        showDivss(slideIndex2 = m);
+    }
+
+    function showDivss(m) {
+        var j;
+        var y = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("demo2");
+
+        if (m > y.length) {
+            slideIndex2 = 1
+        }
+        if (m < 1) {
+            slideIndex2 = y.length
+        }
+        for (j = 0; j < y.length; j++) {
+            y[j].style.display = "none";
+        }
+        for (j = 0; j < dots.length; j++) {
+            dots[j].className = dots[j].className.replace(" w3-opacity-off", "");
+        }
+        y[slideIndex2 - 1].style.display = "block";
+        dots[slideIndex2 - 1].className += " w3-opacity-off";
+    }
+</script>
+
+<!--IMAGE ENLARGE-->
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
 
 </body>
 </html>

@@ -118,43 +118,6 @@ textarea {
 }
 
 /* BOX MODELS - projects */
-#soundstudiotop {
-    width: 65%;
-    padding: 6%;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: -100px;
-    margin-bottom: 0px;
-    background-color: rgb(235, 172, 152);
-    border-radius: 5px;
-}
-
-#soundstudiomiddle {
-    width: 65%;
-    padding: 6%;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-bottom: 0px;
-    background-image: linear-gradient(rgb(235, 172, 152), rgb(241, 218, 211));
-}
-
-#soundstudiobottom {
-    width: 65%;
-    padding: 6%;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-bottom: 0px;
-    background-color: rgb(241, 218, 211);
-    border-radius: 5px;
-}
-
-.soundstudiopic {
-    width: 65%;
-    margin-left: 18%;
-    margin-right: 18%;
-    background-color: rgb(241, 218, 211)
-}
-
 #gallery {
     width: 80%;
     padding: 2%;
@@ -230,9 +193,7 @@ textarea {
 
 /* PARALLAX */
 .bgimg-1,
-.bgimg-2,
-.bgimg-3,
-.bgimg-4 {
+.bgimg-2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,31 +201,19 @@ textarea {
 }
 
 .bgimg-1 {
-    background-image: url("../images/about/cover-about.JPG");
+    background-image: url("/images/index/cover.JPG");
     min-height: 980px;
 }
 
 .bgimg-2 {
-    background-image: url("../images/projects/cover-projects.JPG");
-    min-height: 500px;
-}
-
-.bgimg-3 {
-    background-image: url("../images/DELsoundstudio/ldr.jpg");
-    min-height: 500px;
-}
-
-.bgimg-4 {
-    background-image: url("../images/DELsoundstudio/theweeknd.jpg");
+    background-image: url("/images/projects/cover-projects.JPG");
     min-height: 500px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
     .bgimg-1,
-    .bgimg-2,
-    .bgimg-3,
-    .bgimg-4 {
+    .bgimg-2 {
         background-attachment: scroll;
         min-height: 400px;
     }
